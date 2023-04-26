@@ -27,7 +27,7 @@ const Intro = () => {
             <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#ff014f"
+            cursorColor="#db2777"
           />
         </h1>
         <p className="max-w-[68rem] text-textColor text-lg mb-3">
