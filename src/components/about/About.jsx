@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../title/Title";
 const About = () => {
   return (
-    <section className="w-full">
+    <section className="w-full pt-10 pb-28">
       <div>
         {/* Title */}
         <Title title="about" style="text-center" />
