@@ -9,6 +9,25 @@ import ReactJsImg from '../assets/react.png';
 import GitHubImg from '../assets/github.png';
 import NextImg from '../assets/nextjs.png';
 import GitImg from '../assets/git.png';
+// Work Images
+import Keyboarda from '../assets/keyboarda.png';
+import Epoxy from '../assets/epoxy.png';
+import Sitechin from '../assets/sitechin.png';
+import LandingSitechin from '../assets/landingSitechin.png';
+import Defi from '../assets/Defi.png';
+import ManageLanding from '../assets/manageLanding.png';
+import Bookmark from '../assets/bookmark.png';
+import Easybank from '../assets/easybank.png';
+import Secured from '../assets/secured.png';
+import coffee from '../assets/coffee.png';
+import construction from '../assets/construction.png';
+import cars from '../assets/car-website-design.png';
+import food from '../assets/food.png';
+import bootcamp from '../assets/bootcamp.png';
+import delivery from '../assets/delivery.png';
+import weekaway from '../assets/weekaway.png';
+import clipboard from '../assets/clipboard.png';
+import dentist from '../assets/dentist.png';
 // Navkinks
 export const navLinksData = [
   {
@@ -89,5 +108,81 @@ export const skillData = [
     img: GitHubImg,
     title: 'github',
     alt: 'github'
+  },
+]
+
+// Work
+export const workData = [
+  {
+    img:cars,
+    title:'cars'
+  },
+  {
+    img:coffee,
+    title:'coffee'
+  },
+  {
+    img:construction,
+    title:'construction'
+  },
+  {
+    img:food,
+    title:'food'
+  },
+  {
+    img:bootcamp,
+    title:'bootcamp'
+  },
+  {
+    img:delivery,
+    title:'delivery'
+  },
+  {
+    img:weekaway,
+    title:'weekaway'
+  },
+  {
+    img:dentist,
+    title:'dentist'
+  },
+  {
+    img:clipboard,
+    title:'clipboard'
+  },
+  {
+    img:Epoxy,
+    title:'epoxy'
+  },
+  {
+    img:Secured,
+    title:'secured'
+  },
+  {
+    img:Bookmark,
+    title:'bookmark'
+  },
+  {
+    img:ManageLanding,
+    title:'manageLanding'
+  },
+  {
+    img:Defi,
+    title:'defi'
+  },
+  {
+    img:Easybank,
+    title:'easybank'
+  },
+  {
+    img:LandingSitechin,
+    title:'landingSitechin'
+  },
+  {
+    img:Keyboarda,
+    title:'keyboarda'
+  },
+  {
+    img:Sitechin,
+    title:'sitechin'
   },
 ]
