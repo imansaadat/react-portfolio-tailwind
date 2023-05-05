@@ -1,7 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Link } from "react-scroll";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { MdWavingHand } from "react-icons/md";
 const Intro = () => {
         const [text] = useTypewriter({
@@ -34,9 +33,7 @@ const Intro = () => {
         </p>
 
         <Link to="Work" smooth={true} duration={500}>
-          <button className="btn">
-            View Work <HiArrowNarrowRight className="ml-1" />{" "}
-          </button>
+         
         </Link>
       </div>
     </section>
