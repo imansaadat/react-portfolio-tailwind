@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../title/Title";
-import { SkillsItems } from "./SkillsItems";
+import SkillsItems from "./SkillsItems";
 const Skills = ({ skillData }) => {
   return (
     <section className="w-full py-28">

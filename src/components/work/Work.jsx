@@ -1,16 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+// Icons
+import { HiArrowNarrowRight } from "react-icons/hi";
+// Components
 import Title from "../title/Title";
 import WorkItems from "./WorkItems";
 
 const Work = ({ workData }) => {
+  const [visible, setVisible] = useState(6);
+
+  const showMoreItems = () => {
+    setVisible((preValue) => preValue + 6);
+  };
   return (
     <section className="w-full">
-      {/* Title */}
-      <Title title="work" subTitle="Check out some of my projects" />
-      <div className="grid md:grid-cols-3 gap-8">
-        {workData.map((item, index) => (
-          <WorkItems key={index} item={item} />
-        ))}
+      <div>
+        {/* Title */}
+        <Title title="work" subTitle="Check out some of my projects" />
+        <div className="grid md:grid-cols-3 gap-8">
+          {workData.slice(0, visible).map((item, index) => (
+            <WorkItems key={index} item={item} />
+          ))}
+        </div>
+        {/* Btn */}
+        { visible < workData.length && (
+            <button className="btn mt-6" onClick={showMoreItems}>
+              View More <HiArrowNarrowRight className="ml-1" />
+            </button>
+        )}
       </div>
     </section>
   );
