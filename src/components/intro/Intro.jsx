@@ -2,6 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Link } from "react-scroll";
 import { MdWavingHand } from "react-icons/md";
+import Button from "../button/Button";
 const Intro = () => {
         const [text] = useTypewriter({
           words: ["Eslam Saadat","a front-end developer"],
@@ -33,7 +34,7 @@ const Intro = () => {
         </p>
 
         <Link to="Work" smooth={true} duration={500}>
-         
+          <Button text='view work' />
         </Link>
       </div>
     </section>
