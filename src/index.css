@@ -8,7 +8,7 @@
     @apply font-raleway
   }
   body{
-    @apply bg-primaryColor h-[10000px]
+    @apply bg-primaryColor h-[10000px] overflow-x-hidden
   }
 }
 

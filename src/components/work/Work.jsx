@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// Icons
-import { HiArrowNarrowRight } from "react-icons/hi";
 // Components
 import Title from "../title/Title";
 import WorkItems from "./WorkItems";

@@ -5,7 +5,7 @@ const About = () => {
     <section className="w-full pt-10 pb-28">
       <div>
         {/* Title */}
-        <Title title="about" style="text-center" />
+        <Title title="about" styles="text-center" />
         <div className="grid md:grid-cols-2 gap-6 text-center md:text-left">
           <div className="order-1 md:order-none">
             {/* Left Text */}
