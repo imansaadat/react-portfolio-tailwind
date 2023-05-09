@@ -9,7 +9,7 @@ const Skills = ({ skillData }) => {
           title="skills"
           subTitle="These are the technologies I've worked with"
         />
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillData.map((item, index) => (
             <SkillsItems key={index} item={item} />
           ))}
