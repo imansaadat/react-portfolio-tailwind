@@ -12,7 +12,7 @@ const Intro = () => {
           delaySpeed: 2000,
         });
   return (
-    <section name="Home" className="w-full h-screen bg-primaryColor">
+    <section name="home" className="w-full h-screen bg-primaryColor">
       <div className="flex flex-col h-full justify-center gap-4">
         <h4 className="text-pinkColor flex items-center gap-1 text-lg">
           <span>

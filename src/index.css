@@ -3,17 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  html{
-    @apply font-raleway
+@layer base {
+  html {
+    @apply font-raleway;
   }
-  body{
-    @apply bg-primaryColor h-[10000px] overflow-x-hidden
+  body {
+    @apply bg-primaryColor overflow-x-hidden;
   }
 }
 
-@layer components{
-  .btn{
-    @apply flex items-center text-whiteColor capitalize tracking-wider bg-transparent py-3 px-8 duration-300 cursor-pointer border-[1px] border-whiteColor text-lg relative z-10 after:content-[''] after:duration-300 after:absolute after:w-0 after:h-full after:right-0 after:bg-pinkColor after:-z-10 hover:border-transparent hover:after:w-full hover:after:left-0
+@layer components {
+  .btn {
+    @apply flex items-center text-whiteColor capitalize tracking-wider bg-transparent py-3 px-8 duration-300 cursor-pointer border-[1px] border-whiteColor text-lg relative z-10 after:content-[''] after:duration-300 after:absolute after:w-0 after:h-full after:right-0 after:bg-pinkColor after:-z-10 hover:border-transparent hover:after:w-full hover:after:left-0;
   }
 }

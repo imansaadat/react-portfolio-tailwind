@@ -11,7 +11,7 @@ const Work = ({ workData }) => {
     setVisible((preValue) => preValue + 6);
   };
   return (
-    <section className="w-full">
+    <section name='work' className="w-full py-20">
       <div>
         {/* Title */}
         <Title title="work" subTitle="Check out some of my projects" />

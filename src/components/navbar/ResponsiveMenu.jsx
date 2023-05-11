@@ -1,6 +1,6 @@
 import React from 'react'
 import NavLinks from './NavLinks'
-const ResponsiveMenu = ({navLinksData,handleNavbar,navbar}) => {
+const ResponsiveMenu = ({navLinksData,navbar,handleNavbar}) => {
   return (
     <div
     className={`flex flex-col items-center justify-center md:hidden fixed top-0 w-full h-screen z-20 p-6 duration-500 bg-primaryColor ${
