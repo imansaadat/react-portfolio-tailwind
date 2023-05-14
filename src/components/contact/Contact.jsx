@@ -3,7 +3,7 @@ import Title from "../title/Title";
 import Button from "../button/Button";
 const Contact = () => {
   return (
-    <section name="Contact" className="py-14">
+    <section name="contact" className="py-14">
       <div className="w-full">
         <form className="w-full">
         <Title title="Contact Us"/>
